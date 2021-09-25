@@ -5,10 +5,12 @@ final List<String> _ballList = ["Ball ()", "Ball ()", "Ball ()", "Ball ()", "Bal
     print(_ballList[i]);
 }
 (2)
-How to get difference of lists in Flutter/Dart?
-Problem
-Consider you have two lists [1,2,3,4,5,6,7] and [3,5,6,7,9,10]. How
-would you get the difference as output? eg. [1, 2, 4]
+void main(){
+ List <int> lst1 = [1,2,3,4,5,6,7];
+   List <int> lst2 = [3,5,6,7,9,10];
+   var difference = lst1.toSet().difference(lst2.toSet()).toList();
+ print(difference.toString());
+}
 
 (3)
 void main(){
