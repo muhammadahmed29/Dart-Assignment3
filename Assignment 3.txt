@@ -1,0 +1,246 @@
+(1)
+void main(){
+final List<String> _ballList = ["Ball ()", "Ball ()", "Ball ()", "Ball ()", "Ball ()",];
+  for (var i = 1; i == 1; i ++){
+    print(_ballList[i]);
+}
+(2)
+How to get difference of lists in Flutter/Dart?
+Problem
+Consider you have two lists [1,2,3,4,5,6,7] and [3,5,6,7,9,10]. How
+would you get the difference as output? eg. [1, 2, 4]
+
+(3)
+void main(){
+List<int> a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+ int i = 0;
+  List<int> l = [];
+
+  for (var e in a) {
+    if (++i % 2 == 0) {
+      l.add(e);
+    }
+  }
+  print(l);
+}
+
+(4)
+void main(){
+var a = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97];
+  if(a == a){
+    print("The above list is taking prime numbers");
+  }else
+    print("The above list is not prime numbers");
+} 
+
+(5)
+void main(){
+
+  var number = 7;
+  for(var i=1; i<=15; i++){
+    print("7 x $i = ${7*i}");
+}
+
+(6)
+void main(){
+List<String> fruits = ["Apple", "Banana","Mango","Orange", "Strawberry"];
+  for(var i =0; i < fruits.length; i++){
+    print(fruits[i]);
+}
+
+(7)
+void main(){
+int a = 5;
+  for(int a =1; a <= 100; a++){
+    print("5 x $a = ${5*a}");
+}
+
+(8)
+void main(){
+double temperature1 = 37.01;
+  double convert1 = (temperature1 * 9 / 5) + 32;
+  print("$convert1 in Fahrenheit");
+  
+  double temperature2 = -3;
+  double convert2 = (temperature2 - 32) * 5 / 9;
+  print("$convert2 in Celcius");
+}
+
+(9)
+void main() {
+  var first_number = 25;
+ var second_number = 3;
+ var operator = "%";
+  
+        if(operator == "%"){
+          print(first_number % second_number);
+        }
+      }
+
+(10)
+void main(){
+var vowel = ["a"];
+     if(vowel != vowel){
+       print("false");
+     }else
+       print("true");
+}
+
+(1)
+Console
+Ball()
+
+(2)
+Console
+[1, 2, 4]
+
+(3)
+Console
+[4, 16, 36, 64, 100]
+
+(4)
+Console
+The above  list is taking prime numbers
+
+(5)
+Console
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70
+7 x 11 = 77
+7 x 12 = 84
+7 x 13 = 91
+7 x 14 = 98
+7 x 15 = 105
+
+(6)
+Console
+
+Apple
+Banana
+Mango
+Orange
+Strawberry
+
+(7)
+Console
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+5 x 11 = 55
+5 x 12 = 60
+5 x 13 = 65
+5 x 14 = 70
+5 x 15 = 75
+5 x 16 = 80
+5 x 17 = 85
+5 x 18 = 90
+5 x 19 = 95
+5 x 20 = 100
+5 x 21 = 105
+5 x 22 = 110
+5 x 23 = 115
+5 x 24 = 120
+5 x 25 = 125
+5 x 26 = 130
+5 x 27 = 135
+5 x 28 = 140
+5 x 29 = 145
+5 x 30 = 150
+5 x 31 = 155
+5 x 32 = 160
+5 x 33 = 165
+5 x 34 = 170
+5 x 35 = 175
+5 x 36 = 180
+5 x 37 = 185
+5 x 38 = 190
+5 x 39 = 195
+5 x 40 = 200
+5 x 41 = 205
+5 x 42 = 210
+5 x 43 = 215
+5 x 44 = 220
+5 x 45 = 225
+5 x 46 = 230
+5 x 47 = 235
+5 x 48 = 240
+5 x 49 = 245
+5 x 50 = 250
+5 x 51 = 255
+5 x 52 = 260
+5 x 53 = 265
+5 x 54 = 270
+5 x 55 = 275
+5 x 56 = 280
+5 x 57 = 285
+5 x 58 = 290
+5 x 59 = 295
+5 x 60 = 300
+5 x 61 = 305
+5 x 62 = 310
+5 x 63 = 315
+5 x 64 = 320
+5 x 65 = 325
+5 x 66 = 330
+5 x 67 = 335
+5 x 68 = 340
+5 x 69 = 345
+5 x 70 = 350
+5 x 71 = 355
+5 x 72 = 360
+5 x 73 = 365
+5 x 74 = 370
+5 x 75 = 375
+5 x 76 = 380
+5 x 77 = 385
+5 x 78 = 390
+5 x 79 = 395
+5 x 80 = 400
+5 x 81 = 405
+5 x 82 = 410
+5 x 83 = 415
+5 x 84 = 420
+5 x 85 = 425
+5 x 86 = 430
+5 x 87 = 435
+5 x 88 = 440
+5 x 89 = 445
+5 x 90 = 450
+5 x 91 = 455
+5 x 92 = 460
+5 x 93 = 465
+5 x 94 = 470
+5 x 95 = 475
+5 x 96 = 480
+5 x 97 = 485
+5 x 98 = 490
+5 x 99 = 495
+5 x 100 = 500
+
+(8)
+Console
+98.618 in Fahrenheit
+-19.444444444444443 in Celcius
+
+(9)
+Console
+1
+
+(10)
+Console
+true
