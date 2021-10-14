@@ -59,11 +59,11 @@ int a = 5;
 
 (8)
 void main(){
-double temperature1 = 37.01;
+double temperature1 = 33.01;
   double convert1 = (temperature1 * 9 / 5) + 32;
   print("$convert1 in Fahrenheit");
   
-  double temperature2 = -3;
+  double temperature2 = 3;
   double convert2 = (temperature2 - 32) * 5 / 9;
   print("$convert2 in Celcius");
 }
@@ -236,8 +236,8 @@ Console
 
 (8)
 Console
-98.618 in Fahrenheit
--19.444444444444443 in Celcius
+91.41799999999999 in Fahrenheit
+-16.11111111111111 in Celcius
 
 (9)
 Console
